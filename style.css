@@ -1,0 +1,85 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para o cabeçalho */
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Estilos para o menu de navegação */
+  /* Estilos para o menu de navegação */
+nav ul {
+    list-style: none;
+    display: flex; /* Para criar um menu horizontal */
+    justify-content: center; /* Para centralizar os itens do menu */
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px; /* Espaçamento entre os itens do menu */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007bff; /* Cor quando o link é destacado */
+}
+  
+  /* Estilos para as seções do portfólio */
+  section {
+    padding: 40px 0;
+  }
+  
+  section h2 {
+    text-align: center;
+  }
+  
+  /* Estilos para a galeria de projetos */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .gallery img {
+    max-width: 100%;
+  }
+  
+  /* Estilos para a seção "Sobre Mim" */
+  .about-me {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .about-me img {
+    max-width: 300px;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 20px;
+  }
+  
